@@ -2,11 +2,11 @@ import styled from 'styled-components';
 
 
 export const InputContainer = styled.div`
-    width: 100%;
+    width: 90%;
     height: 42px;
-    color: #FFF;
+    color: #6a6e81;
 
-    border: 1px solid #81259D;
+    border: 1px solid #f5f7fa;
     border-radius: 21px;
     overflow: hidden;
     padding: 0 10px;
@@ -23,8 +23,10 @@ export const InputContainer = styled.div`
 `
 
 export const ErrorMessage = styled.p`
-    color: red;
-    font-size:12px;
-    margin-top:8px;
-    margin-left:10px;
+    color: #AAFF00;
+    font-size:13px;
+    margin: 10px;
+    width: 40%;
+    text-align: left;
+
 `

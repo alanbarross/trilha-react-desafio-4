@@ -5,7 +5,6 @@ import styled from 'styled-components';
 export const Container = styled.div`
     width: 100%; 
     height: 100vh;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,7 +13,7 @@ export const Container = styled.div`
 export const LoginContainer = styled.div`
     width: 100%;
     max-width: 420px;
-    background-color: #FFFFFF;
+    background-color: #ff8700;
 
     border-radius: 8px;
     padding: 20px;
@@ -28,7 +27,7 @@ export const LoginContainer = styled.div`
 export const Title = styled.h1`
     font-size: 42px;
     font-weight: 700;
-    color: #81259D;
+    color: #ffffff;
 `
 
 export const Row = styled.div`
